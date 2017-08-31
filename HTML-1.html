@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+     
+     <link rel="stylesheet" href='css/font-awesome.min.css'>
+     
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+    <style>
+     
+     
+   input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #f5f5f5;
+  width:80%;
+  font-size:small;
+  
+}
+
+.last
+{
+  padding: 0px 0px 200px 0px;
+}
+.itallic{
+  font-style:italic;
+}
+
+
+.test2{
+  height:300px;
+  background-color:white;
+}
+
+.test3{
+  height:100px;
+  background-color:white;
+}
+     .smallp
+     {
+      background-color:#333333;
+      height:195px;
+     width:100%;
+     text-align:center;
+     }
+     
+     .orange2{
+      background-color:#ff8b38;
+      height:5px;
+     width:100%;
+     text-align:center;
+     color:white;
+     }
+      .largep
+     {
+      background-color:#333333;
+      height:180px;
+     width:100%;
+     text-align:center;
+     }
+     
+      .orange3{
+      background-color:#ff8b38;
+      height:40px;
+     width:100%;
+     text-align:center;
+     color:white;
+     }
+     
+     .white
+    {
+      background-color:white;
+      height:422px;
+      width:100%;
+      padding-left:0px;
+      padding-right:0px;
+      text-align:center;
+    }
+    
+     .white2
+    {
+      margin-top:-20px;
+      background-color:white;
+      height:442px;
+      width:100%;
+      padding-left:0px;
+      padding-right:0px;
+      text-align:center;
+    }
+    
+  .me
+  {
+    background-color:Transparent;
+  }
+  
+  .me2
+  {
+    background-color:Transparent;
+    border-color:white;
+  }
+     *
+     {
+     box-sizing:border-box;
+     
+     }
+     
+     .wrap
+     {
+      word-wrap: break-word;
+     }
+     .left
+     {
+      margin-left:-15px;
+     }
+     
+      .left2
+     {
+      margin-left:130px;
+     }
+     
+     .left3
+     {
+       margin-left:110px;
+     }
+     
+     .left4
+     {
+       margin-left:90px;
+     }
+     .head
+     {
+          background-image:url(header2.jpg);
+          height:550px;
+          min-width:100%;
+     }
+   
+     .logo
+     {
+      margin-top:80px;
+      margin-left:15px;
+      margin-bottom:20px;
+     }
+     
+     .test
+     {
+      background-color:white;
+      height:305px;
+      
+     }
+     
+    .he
+    {
+      font-size:24px;
+     color:white;
+      font-weight:bold;
+      margin-top:10px;
+      display: block;
+      
+    }
+    
+    .block
+    {
+      display: block;
+    }
+    
+    .filler
+    {
+      font-size:14px;
+      color:white;
+    }
+    
+    .sign {
+      text-align: center;
+     background-color:#f5f5f5;
+     width:100%;
+   
+   padding: 2px;
+   padding-top: 4px;
+   border-bottom: 1px black solid;
+   
+   
+    }
+    
+    .input
+    {
+       margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left:20px;
+    }
+    
+    .bottom
+    {
+      border-bottom:1px #f5f5f5 solid;
+    }
+    
+    .teko{
+      height:230px;
+      background-color:white;
+      margin-left:30px;
+    }
+    
+    .orange
+    {
+       height:40px;
+       background-color:#ff9b51;
+       text-align: center;
+    }
+    
+    .savior{
+      padding-left:0px;
+      padding-right:0px;
+    }
+    
+    .social
+    {
+      height:80px;
+      background-color:white;
+    }
+    
+    .contain{
+      background-color:#f5f5f5;
+      height:500px;
+      border-top:1px  solid black;
+      
+    }
+    
+    .contain2{
+      background-color:white;
+      height:500px;
+      border-top:1px  solid black;
+      
+    }
+    
+     .contain3{
+      background-color:#f5f5f5;
+      height:450px;
+      border-top:1px  solid black;
+      
+    }
+    
+     .contain4{
+      background-color:white;
+      height:530px;
+      border-top:1px  solid black;
+      
+    }
+    
+     .contain5{
+      background-color:#f5f5f5;
+      height:760px;
+      border-top:1px  solid black;
+      
+    }
+    
+    .contain6{
+      background-image:url(u25_state0.png);
+      height:300px;
+      border-top:1px  solid white;
+      
+    }
+    
+    .contain7{
+      background-color:white;
+      height:590px;
+      border-top:1px  solid white;
+      
+    }
+    
+    .contain8{
+      background-color:black;
+      height:90px;
+      text-align: center;
+      padding:20px;
+      
+      
+    }
+    
+    .up
+    {
+      margin-top:10px;
+    }
+    
+    .up2
+    {
+      margin-top:30px;
+    }
+    
+    
+    .fix
+    {
+      margin-top:-20px;
+    }
+    
+    
+     .up3
+    {
+      margin-top:50px;
+    }
+    .media
+    {
+      color:grey;
+      font-size:40px;
+      margin-right:5px;
+      margin-top:10px;
+    }
+    
+    .media2
+    {
+      color:grey;
+      font-size:20px;
+     margin-right:25px;
+    }
+    
+    .full
+    {
+      height:400px;
+    }
+    
+    .tabs{
+      height:100px;
+      width:100%;
+      color:white;
+      
+      
+    }
+    
+  .small
+  {
+    font-size:small;
+    color:grey;
+    font-family:"OpenSans";
+    
+  }
+  .small2
+  {
+    font-size:xx-small;
+    color:grey;
+    font-family:"OpenSans";
+    font-style:italic;
+  }
+  
+  
+  .message{
+    background-color:#f5f5f5;
+    height:150px;
+    padding-left:10px;
+      padding-right:10px;
+      padding-top:10px;
+      padding-bottom:5px;
+    
+  }
+    </style>
+  </head>
+  <body>
+    
+     
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:black">
+  <div class="container" > <a class="navbar-brand" > <img src="Logo2.png" > </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Features <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Reviews</a>
+      </li>
+       
+        <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    
+  </div></div>
+</nav>
+    
+    <header class="head">
+     
+     <div class="container">
+      
+      <div class="row">
+        <img class="logo" src="logo.png">
+      </div>
+      
+      <div class="row">
+        
+        
+          <div class="col col-6">
+            
+            <span class="he" > MODERN AXURE TEMPLATE
+FOR BEAUTIFUL PROTOTYPES</span>
+            
+            <img src="divider_white_u72.png" class="block">
+            
+            <span class="filler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+accumsan et viverra justo commodo.</span>
+
+
+
+<button type="button" class="btn btn-secondary up2 me2" >Download</button> 
+          </div>
+          
+          
+          
+           <div class="col col-2">
+            
+            
+          </div>
+           
+           
+           <div class="col col-3 test savior fix">
+            
+            <div class="sign"> <h6 class="up">Try your <span style="color:orange">Free</span> trial today</h6></div>
+            <div class="teko"><input type="text" name="fname" class="input" placeholder="Name"><br>
+            <input type="text" name="fname" class="input" placeholder="Email"><br>
+            <input type="text" name="fname" class="input" placeholder="Password" ><br>
+            </div>
+            
+            <div class="orange" style="color:white"> Get Started </div>
+          </div>
+      </div>
+      
+      
+      
+      
+     </div>
+     
+    </header>
+    
+    <div class="container up"> <div class="social">
+      <h5>Social Media</h5>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</div>
+
+    </div>
+    
+    <div class=" contain "> 
+      
+      <div class="container">
+        
+        <ul class="nav justify-content-end">
+  <li class="nav-item">
+    
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" > <i class="fa fa-facebook media" aria-hidden="true"></i> </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"><i class="fa fa-twitter media" aria-hidden="true"></i> </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" ><i class="fa fa-google-plus media" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" ><i class="fa fa-pinterest media" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" ><i class="fa fa-instagram media" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" ><i class="fa fa-reddit media" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" ><i class="fa fa-rss media" aria-hidden="true"></i></a>
+  </li>
+</ul>
+        
+        <div class="row">
+          
+          <div class="col col-1 full savior" style="background-color:#f5f5f5; ">
+            <div class="up2"> <button class="tabs btn btn-dark" style="background-color:#ff8b38; ">Tab</button>
+            <button class="tabs btn btn-dark" style="background-color:#333333; ">Tab</button>
+            <button class="tabs btn btn-dark" style="background-color:#333333; ">Tab</button></div>
+            
+          </div>
+          
+         
+          <div class="col col-1 full"  style="background-color:#f5f5f5; ">
+            
+            
+          </div>
+          <div class="col col-5 full" style="background-color:#f5f5f5; ">
+            
+            <div class="up2">
+              
+              <h5>Tabs With soft transitioning Effect</h5>
+              
+              <br>
+             
+             <span class="small block"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+penatibus et magnis dis parturient montes.
+</span>
+             <br>
+             
+            <button type="button" class="btn btn-secondary" style="background-color:#ff8b38; ">Download</button>  
+              
+            
+          </div>
+            
+          </div>
+            <div class="col col-1 full" style="background-color:#f5f5f5;  "></div>
+             <div class="col col-3 full" style="background-color:#f5f5f5;  ">
+              
+              <div class="up3">
+              
+              <img src="image_right_u255.png">
+              
+              
+            
+          </div>
+             </div>
+          
+        </div>
+      </div>
+
+
+    </div>
+    
+    <div class="contain2">
+      
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col col-5 savior up3"> <img src="image_left_sub_list_u260.png" class="left"> </div>
+          <div class="col col-2 savior up3"></div>
+          <div class="col col-5 savior up3">
+            
+            <h5>SubList Section</h5>
+            
+            <img src="divider_orange_u7 copy 4.png" class="block up2">
+            <br>
+            <span class="small ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+accumsan et viverra justo commodo.</span>
+            
+            <br>
+           <br>
+           <div class="row up savior">
+             <div class="col-2 savior"> <img src="io.jpg">  </div>
+          <div class="col-10 savior" > <span class="block" > Title </span> <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>  </div>
+           </div>
+           
+           <div class="row savior">
+             <div class="col-2 savior"> <img src="io.jpg">  </div>
+          <div class="col-10 savior"> <span class="block" > Title </span> <span class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>  </div>
+           </div>
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+     <div class="contain3">
+      
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col col-5 savior up3">
+            
+            <h5>Standarad Picture Selection</h5>
+            
+            <img src="divider_orange_u7 copy 4.png" class="block up2">
+            <br>
+            <span class="small ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+accumsan et viverra justo commodo.</span>
+            
+            <br>
+           
+          
+           </div>
+          
+           <div class="col col-2 savior up3"></div>
+           
+          <div class="col col-5 savior up2 "> <img src="image_right_standard_u262.png"> </div>
+         
+          
+           
+           
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    
+       <div class="contain4">
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col col-4 col-xs-4"></div>
+          
+           <div class="col col-4 col-xs-4 up3 savior" style="margin-left:20px;"> <h5>Why is This Awesome?!</h5>
+           <br>
+           <img src="divider_orange_u7 copy 4.png" class="block left2 fix">
+           <br>
+           <span class="small up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+</span>
+           
+           </div>
+            <div class="col col-4"></div>
+        </div>
+        
+        <div class="row up2">
+          <div class="col col-4 col-xs-4" style="background-color:white; text-align: center;   "><img src="lamp.png" class="left3 block"  > <h5>Thoughtful Design</h5> <span class="wrap small itallic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</span></div>
+          
+         <div class="col col-4 col-xs-4 " style="background-color:white; text-align: center;  "> <img src="keyboard.png " class="left3 block" > <h5>Well Crafted</h5> <span  class="wrap small itallic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</span> </div>
+           
+            <div class="col col-4 col-xs-4" style="background-color:white; text-align: center;  "> <img src="light.png" class="left3 block" ><h5>Easy to Customize</h5> <span  class="wrap small itallic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</span> </div>
+            
+        </div>
+        
+        
+        </div>
+      
+      
+      
+      </div>
+       
+       
+       
+        </div>
+        
+        
+        <div class="contain5">
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col col-4 col-xs-4"></div>
+          
+           <div class="col col-4 col-xs-4 up3 savior" style="margin-left:40px;"> <h4 style="margin-left:50px;">Pricing Options</h4>
+           <br>
+           <img src="divider_orange_u7 copy 4.png" class="block left2 fix">
+           <br>
+           <span class="small up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+</span>
+           
+           </div>
+            <div class="col col-4 col-xs-4 "></div>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        
+        <div class="row">
+            <div class="col col-1"> </div>
+            <div class="col col-3 white">
+              
+              <div class="smallp">
+                  <div style="padding-top:10px; padding-bottom:10px; "> <h4 style="border-bottom: 1px white solid; color:white; height:45px; " >Basic</h4> <div class="row">   </div> </div>
+                 
+                 <div></div>
+
+              </div>
+              
+              <div class="orange2"></div>
+              
+               <span class="small block bottom up"> 10GB Bandwidth</span>
+                <span class="small block bottom up"> 10GB Service </span>
+                <span class="small block bottom up"> 3 Websites</span>
+                <span class="small block bottom up"> Customization</span>
+                <span class="small block bottom up"> WordPress integoration</span>
+                <span class="small block  up "> Email Support</span>
+            </div>
+            <div class="col col-1"> </div>
+            
+            <div class="col col-3 white2">
+              
+              
+               <div class="largep">
+                
+                  <div style="padding-top:10px; padding-bottom:10px; "> <h4 style="border-bottom: 1px white solid; color:white; height:45px;" >Professional</h4> <div class="row">  </div> </div>
+                  
+               </div>
+               
+               <div class="orange3"> Our Most Popular </div>
+               
+             <span class="small block bottom up"> 10GB Bandwidth</span>
+                <span class="small block bottom up"> 10GB Service </span>
+                <span class="small block bottom up"> 3 Websites</span>
+                <span class="small block bottom up"> Customization</span>
+                <span class="small block bottom up"> WordPress integoration</span>
+                <span class="small block  up"> Email Support</span>
+               
+            </div>
+            
+            
+            <div class="col col-1"> </div>
+            
+            <div class="col col-3 white ">
+              
+              <div class="smallp">
+                
+                  <div style="padding-top:10px; padding-bottom:10px; "> <h4 style="border-bottom: 1px white solid; color:white; height:45px;" >Enterprise</h4>  <div class="row">   </div> </div>
+                
+                
+                
+              </div>
+              
+              <div class="orange2"></div>
+              
+              <span class="small block bottom up"> 10GB Bandwidth</span>
+                <span class="small block bottom up"> 10GB Service </span>
+                <span class="small block bottom up"> 3 Websites</span>
+                <span class="small block bottom up"> Customization</span>
+                <span class="small block bottom up"> WordPress integoration</span>
+                <span class="small block  up"> Email Support</span>
+              
+            </div>
+            
+            
+            <div class="col col-1"> </div>
+          
+          
+        </div>
+        
+        
+       
+        
+        
+        </div>
+      
+      
+      
+      </div>
+       
+       
+       
+        </div>
+        
+      </div>
+      
+    </div>
+    
+    <div class="contain4">
+      
+      <div class="container">
+        
+        <div class="row">
+          <div class="col col-4"></div>
+          
+           <div class="col col-5 up3 savior" style="margin-left:-10px;"> <h4>What are our customers are saying</h4>
+           <br>
+           <img src="divider_orange_u7 copy 4.png" class="block left2 fix" style="margin-left:200px;">
+           <br>
+           <span class="small up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+</span>
+           
+           </div>
+            <div class="col col-3"></div>
+        </div>
+        
+        
+        <div class="row">
+          
+          <div class="col col-1"></div>
+          
+          <div class="col col-3 col-xs-3">
+            
+            <div class="message up3 block"> <span class="small2 wrap"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+accumsan et viverra justo commodo.</span></div>
+            
+            
+            <div class="row down up">
+          <div class="col-4"> <img src="avatar_2_u231.png">  </div>
+          <div class="col-8 col-xs-8"> <span class="block"> John Esma3il </span> <span class="small">IT member</span>  </div>
+         
+         
+     </div>
+            
+            
+          </div>
+          
+          <div class="col col-1"></div>
+          
+          <div class="col col-3 col-xs-3 ">
+             <div class="message up3 block"><span class="small2 wrap"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+accumsan et viverra justo commodo.</span>
+             </div>
+             
+             <div class="row down up">
+          <div class="col-4"> <img src="avatar_2_u231.png">  </div>
+          <div class="col-8 col-xs-8"> <span class="block"> John Esma3il </span> <span class="small">IT member</span>  </div>
+         
+         
+     </div>
+             
+            </div> 
+          <div class="col col-1"></div>
+          
+          <div class="col col-3 col-xs-3">
+             <div class="message up3 block"><span class="small2 wrap"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+accumsan et viverra justo commodo.</span></div>
+             
+             <div class="row down up">
+          <div class="col-4"> <img src="avatar_2_u231.png">  </div>
+          <div class="col-8 col-xs-8"> <span class="block"> John Esma3il </span> <span class="small">IT member</span>  </div>
+         
+         
+     </div>
+             
+          </div>
+          
+          
+        </div>
+        
+        
+        </div>
+      
+      
+      
+      </div>
+       
+       
+       
+        </div>
+    
+     <div class="contain6">
+      
+      <div class="container">
+        
+         <div class="row">
+          <div class="col col-4"></div>
+          
+           <div class="col col-4 up3 savior" style="margin-left:80px;"> <h4 style="color:white;">Stylish Axure Design</h4>
+           <br>
+           <img src="divider_orange_u7 copy 4.png" class="block left3 fix">
+           <br>
+           <span class="small up block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+</span>
+           <br>
+           
+             <button type="button" class="btn btn-secondary left4 me" >Download</button>  
+           
+           </div>
+            <div class="col col-4"></div>
+        </div>
+            
+        </div>
+        
+        
+        </div>
+      
+      
+      
+      </div>
+      
+      
+       <div class="contain7">
+      
+      <div class="container">
+        
+         <div class="row">
+          <div class="col col-4"></div>
+          
+           <div class="col col-4 up3 savior" style="margin-left:120px;"> <h3 style="color:grey;">Contact us</h3>
+           <br>
+           <img src="divider_orange_u7 copy 4.png" class="block  fix" style="margin-left:60px;">
+           <br>
+           <span class="small up block" >Lorem ipsum dolor sit amet
+</span>
+           <br>
+           
+            
+           
+           </div>
+            <div class="col col-4"></div>
+        </div>
+            
+            
+             <div class="row">
+              
+               
+                <div class="col">
+                  <div class="test3">
+                     <input type="text" name="fname" class="input" placeholder="Name">
+                </div>
+                  <div class="test3">
+                     <input type="text" name="fname" class="input" placeholder="Email">
+                </div>
+                  <div class="test3">
+                     <input type="text" name="fname" class="input" placeholder="Subject">
+                </div>
+                  
+                  
+                </div>
+                
+                 <div class="col">
+                  
+                    <div class="test2">
+                    <input type="text" name="fname" class="input last wrap" placeholder="Email">
+                </div> 
+                </div>
+                 
+             </div>
+             
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-1"></div>
+                <div class="col-4"><button type="button" class="btn btn-secondary" style="background-color:#ff8b38; ">Send Message</button></div>
+                <div class="col-3"></div>
+              </div>
+              
+        </div>
+      
+     
+        
+        
+        </div>
+      
+      
+      
+      </div>
+       
+        <div class="contain8">
+          
+            <div class="container"> <i class="fa fa-facebook media2" aria-hidden="true"></i> <i class="fa fa-twitter media2" aria-hidden="true"></i> <i class="fa fa-instagram media2" aria-hidden="true"></i> <i class="fa fa-reddit media2" aria-hidden="true"></i> <i class="fa fa-rss media2" aria-hidden="true"></i> <i class="fa fa-google-plus media2" aria-hidden="true"></i>  </div>
+              
+               <span class="small"> Copyright © 2017 All right Reserved.</span>
+          
+        </div>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
